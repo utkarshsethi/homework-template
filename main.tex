@@ -15,6 +15,12 @@
 \usepackage{tikz}
 
 
+%references
+\usepackage[sort&compress,square,numbers]{natbib}
+% formats URL nicely, especially in the bibliography
+\usepackage{url}
+
+
 \pgfplotsset{width=10cm,compat=1.9}
 \usepgfplotslibrary{external}
 \tikzexternalize
@@ -108,5 +114,11 @@
     }
     
 \end{enumerate}
+
+
+%References
+\bibliographystyle{IEEEtranN}
+\bibliography{bibliography}
+%create file named 'bibliography.bib'
 
 \end{document}
