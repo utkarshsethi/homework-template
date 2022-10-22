@@ -2,6 +2,8 @@
 Latex Template to do assignments
 
 
-Sample Output
+# Sample
+
+See [main.pdf](main.pdf):
 
 ![image](sample.png)
